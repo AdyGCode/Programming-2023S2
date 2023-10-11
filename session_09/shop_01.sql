@@ -82,16 +82,29 @@ WHERE products.category_id IN (SELECT categories.id
 /* Show the categories with more than X products in them */
 SELECT name AS category_name
 FROM categories
-WHERE id IN (SELECT category_id
-             FROM products
-             GROUP BY category_id
-             HAVING COUNT(id) >= 2)
+WHERE id IN (
+     SELECT category_id
+     FROM products
+     GROUP BY category_id
+     HAVING COUNT(id) >= 4
+     )
 ORDER BY category_name;
 
 # Using JOIN and HAVING
 
-SELECT c.name AS category_name
+SELECT c.name AS category_name, COUNT(p.id) as Number
 FROM categories c
          JOIN products p ON c.id = p.category_id
 GROUP BY c.name
 HAVING COUNT(p.id) >= 2;
+
+SELECT c.name, item_count
+FROM (
+  SELECT
+   count(1) AS item_count,
+   category_id AS id
+  FROM products
+  GROUP BY category_id
+  HAVING item_count >=3
+ ) AS t
+ JOIN categories c ON (c.id = t.id);

@@ -27,3 +27,15 @@ Subject / Topic  and the question itself 😊
 - using them
 
 ### JS - #923 Check
+
+
+### SQL and Nested Queries 
+We started to look at SQL nested queries, but could not resolve a problem during the scheduled time.
+
+Adrian spent a while after and managed to resolve the issue. The link here shows the DDL and the DML files to the sample data and queries.
+
+It has been updated since that time, and Session 12 has a link to these files also.
+
+- [Shop DDL SQL File](../session_09/shop_ddl.sql)
+- [Shop Queries File](../session_09/shop_01.sql)
+
