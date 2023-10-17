@@ -1,5 +1,5 @@
 
-USE shop;
+USE `shop`;
 
 INSERT INTO categories(id, name, description)
     VALUE (1, 'unknown', null);
@@ -82,12 +82,10 @@ WHERE products.category_id IN (SELECT categories.id
 /* Show the categories with more than X products in them */
 SELECT name AS category_name
 FROM categories
-WHERE id IN (
-     SELECT category_id
-     FROM products
-     GROUP BY category_id
-     HAVING COUNT(id) >= 4
-     )
+WHERE id IN (SELECT category_id
+             FROM products
+             GROUP BY category_id
+             HAVING COUNT(id) >= 4)
 ORDER BY category_name;
 
 # Using JOIN and HAVING
@@ -99,12 +97,9 @@ GROUP BY c.name
 HAVING COUNT(p.id) >= 2;
 
 SELECT c.name, item_count
-FROM (
-  SELECT
-   count(1) AS item_count,
-   category_id AS id
-  FROM products
-  GROUP BY category_id
-  HAVING item_count >=3
- ) AS t
- JOIN categories c ON (c.id = t.id);
+FROM (SELECT count(1)    AS item_count,
+             category_id AS id
+      FROM products
+      GROUP BY category_id
+      HAVING item_count >= 3) AS t
+         JOIN categories c ON (c.id = t.id);

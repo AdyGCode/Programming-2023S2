@@ -1,12 +1,20 @@
-CREATE DATABASE IF NOT EXISTS shop;
+# Clean up previous version of the Database
+# and database user
+DROP DATABASE IF EXISTS `shop`;
+DROP USER IF EXISTS shop_user@localhost;
+FLUSH PRIVILEGES;
 
+
+# Create new database and database user
+# Give the user access rights to the database
+# Require MySQl/MariaDB to save the new privileges
+CREATE DATABASE IF NOT EXISTS `shop`;
 CREATE USER IF NOT EXISTS shop_user@localhost
     IDENTIFIED BY 'Password1';
-
 GRANT ALL ON shop.* TO shop_user@localhost;
 GRANT USAGE ON *.* TO shop_user@localhost;
 
-
+FLUSH PRIVILEGES;
 
 USE shop;
 
@@ -19,7 +27,8 @@ CREATE TABLE IF NOT EXISTS categories
     name        VARCHAR(32)  NOT NULL,
     description VARCHAR(255) NULL,
 
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    INDEX name(name)
 );
 
 CREATE TABLE IF NOT EXISTS products
