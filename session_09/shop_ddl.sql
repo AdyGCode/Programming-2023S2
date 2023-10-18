@@ -16,7 +16,7 @@ GRANT USAGE ON *.* TO shop_user@localhost;
 
 FLUSH PRIVILEGES;
 
-USE shop;
+USE `shop`;
 
 DROP TABLE IF EXISTS categories;
 DROP TABLE IF EXISTS products;
