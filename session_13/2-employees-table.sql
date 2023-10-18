@@ -49,3 +49,11 @@ values
 		(104,	'Kelly',	'Kapoor',	'1980-02-05',	'F',	55000,	102,	2, now(), null),
 		(999, 'Jack', 'O''Reilly', '1970-01-01', 'O', 234000, 102, 2, now(), now()) ;
 	  
+insert into employees(
+		id, given_name, family_name, date_of_birth, 
+		gender_identity, gross_salary, supervisor_id, 
+		branch_id, created_at, updated_at) 
+values(
+		150,	"Dianne",	"Wallace",	"1967-11-17",	
+	  "M",	250000,	101,	
+	  1, now(), null);
