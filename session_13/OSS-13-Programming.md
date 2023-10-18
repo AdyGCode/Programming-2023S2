@@ -1,4 +1,4 @@
-[Session 12](../session_12/OSS-12-Programming.md) | [Session 14](../)
+[Session 12](../session_12/OSS-12-Programming.md) | [Session 14](../session_14/OSS-14-Programming.md)
 
 # Session 13
 
@@ -7,8 +7,16 @@
 - eMail (online@screencraft.net.au)
 
 ## Useful Links
-https://diigo.com/profile/ady_gould
-https://learning.oreilly.com/search/topics/python
+- Adrian's Diigo Account 
+  - https://diigo.com/profile/ady_gould
+- O'Reilly Books/Videos etc (via TAFE Library)
+  - python -  https://learning.oreilly.com/search/?q=python&type=*&rows=100
+  - sql -  https://learning.oreilly.com/search/?q=sql&type=*&rows=100
+  - mysql -  https://learning.oreilly.com/search/?q=mysql&type=*&rows=100
+  - wpf -  https://learning.oreilly.com/search/?q=wpf&type=*&rows=100
+  - html -  https://learning.oreilly.com/search/?q=html&type=*&rows=100
+  - javascript -  https://learning.oreilly.com/search/?q=javascript&type=*&rows=100
+  - C# -  https://learning.oreilly.com/search/?q=C%23&type=*&rows=100
 
 ## WARNING ⚠️
 No Warnings for this evening... other than background noise as usual.
