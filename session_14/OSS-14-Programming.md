@@ -39,5 +39,15 @@ Use the BB9 session chat...
 Get them questions ready!
 Subject / Topic and the question itself 😊
 
+### IP4RIoT
+- Marking is commencing
+- Marking by Adrian, Ingrid, Mohammed
 
+### ICTPRG302
+- With the wordle assignment how do you save data from one file to another?
+
+- Open the file for appending
+- write new data to the end
+- close the file
+- 
 

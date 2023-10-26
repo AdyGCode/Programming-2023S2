@@ -1,0 +1,8 @@
+Location, Temperature
+"Mandurah", 21.8
+"Perth", 17.8
+"York", 27.8
+"Mandurah", 27.9
+"York", 13.6
+"Perth", 49.1
+"Mandurah", 17.2
