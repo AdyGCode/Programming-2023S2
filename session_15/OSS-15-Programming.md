@@ -14,7 +14,7 @@
 
 See below for eMail based help.
 
-### Requests for Assistance
+## Requests for Assistance
 
 Asking for assistance is an important skill.
 
@@ -24,8 +24,25 @@ This is part of what is known as **Rubber Duck Debugging**.
 
 This then applies to when you are seeking assistance via eMail or via Teams chat.
 
+### Help Desk
+
+The Help Desk is one of the ways we provide 
+assistance to all students.
+
+Our help desk system has a ticketing component where
+you email your queries, and a FAQ (Frequently Asked
+Questions) section for commonly requested items.
+
+The links below will take you to the FAQs and a 
+method to log in to the Help Desk to view your 
+tickets.
+
+- FAQs: https://help.screencraft.net.au/hc/1990208628
+- Your Tickets: https://help.screencraft.net.au/help/2561559896/auth
+
+### How to Request Assistance
 To make it easier for the lecturers to respond when 
-asking for help via the help Desk, make sure you 
+asking for help via the Help Desk, make sure you 
 follow the guidelines below.
 
 > When sending the email it **MUST** come from your 
@@ -49,37 +66,19 @@ Make sure you include the following details:
 | -"-           | Details of the problem                                  |
 | Attachments   | Include screen shots and Zipped source code as required |
 
-### Help Desk
-
-The Help Desk is one of the ways we provide 
-assistance to all students.
-
-Our help desk system has a ticketing component where
-you email your queries, and a FAQ (Frequently Asked
-Questions) section for commonly requested items.
-
-The links below will take you to the FAQs and a 
-method to log in to the Help Desk to view your 
-tickets.
-
-- FAQs: https://help.screencraft.net.au/hc/1990208628
-- Your Tickets: https://help.screencraft.net.au/help/2561559896/auth
 
 ## Useful Links
 
-- GitHub Repository of Code and Notes
-    - [AdyGCode/Programming-2023S2 (github.com)](https://github.com/AdyGCode/Programming-2023S2)
+> GitHub Repository of Code and Notes
+> - [AdyGCode/Programming-2023S2 (github.com)](https://github.com/AdyGCode/Programming-2023S2)
       https://github.com/AdyGCode/Programming-2023S2
-- Adrian's Diigo Account
-    - https://diigo.com/profile/ady_gould
+
+> Adrian's Diigo Account
+> - https://diigo.com/profile/ady_gould
 
 NMTAFE provides access for Students to the O'Reilly bookshelf. Within this bookshelf we have identified some searches you may find useful.
 
-To access the Online Bookshelf for free you use the following link and your TAFE email address.
-
-Details of how to do this are shown here: https://northmetrotafe.libanswers.com/faq/271042
-
-The Libary is available here: https://www.oreilly.com/library-access/
+Details on how to access the Online Bookshelf for free  are shown here: https://northmetrotafe.libanswers.com/faq/271042 and the O'Reilly Library is available here: https://www.oreilly.com/library-access/
 
 - O'Reilly Books/Videos etc (via TAFE Library)
     - python -  https://learning.oreilly.com/search/?q=python&type=*&rows=100
