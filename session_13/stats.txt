@@ -1,0 +1,3 @@
+Location: Mandurah        Average (Mean) Temp:  22.30
+Location: Perth           Average (Mean) Temp:  33.45
+Location: York            Average (Mean) Temp:  20.70
