@@ -5,15 +5,16 @@
 
 title = "Car Park Config"
 
+# section name in [ ]
 [owner]
 name = "Jacques d'Carre"
-
 
 [location]
 name = "Moondalup City Square Parking"
 max_spaces = 192
-# two spaces reserved for parking staff
 free_spaces = 190
+# two spaces reserved for parking staff
+reserved_spaces = 2
 
 [locations]
 codes = [
@@ -25,17 +26,20 @@ codes = [
     [locations.CAR]
     name = "Cartonville Parking"
     max_spaces = 16
-    # one space reserved for parking staff
     free_spaces = 15
+    # one space reserved for parking staff
+    reserved_spaces = 1
 
     [locations.PER]
     name = "Perf City Centre Parking"
     max_spaces = 1024
-    # two spaces reserved for parking staff
     free_spaces = 1022
+    # two spaces reserved for parking staff
+    reserved_spaces = 2
 
     [locations.MOO]
     name = "Moondalup City Square Parking"
     max_spaces = 192
-    # two spaces reserved for parking staff
     free_spaces = 190
+    # two spaces reserved for parking staff
+    reserved_spaces = 2

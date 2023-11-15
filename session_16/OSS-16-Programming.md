@@ -7,6 +7,53 @@
 | Face-to-Face  | 2023-11-08 |
 | Online        | 2023-11-15 |
 
+We will attempt to cover items from all the stages. No guarantees... have one item to look at already...
+
+---
+## Questions?!
+Get them questions ready!
+Subject / Topic and the question itself 😊
+
+---
+### Tonight...
+- Last Date for submissions
+	- Week 19 (6/12/23) for any chance of feedback (By Weds midnight)
+	- Week 20 (13/12/23) if not worried about result (By Weds midnight)
+	- Little fixes, may have some leeway.
+	- Big fixes, much much much harder
+
+- Things are a changing!
+	- All face to face lecturers will be involved in online support
+	- Dedicated support session(s) for each unit/cluster
+	- Day/Time to be determined by lecturer in consultation with students
+	- Open to online and face to face
+
+- Need a bit of "peace n quiet"
+	- Don't be afraid to ask if you can come into Perth campus for study
+	- Send Adrian a Teams message!
+
+- Feedback!
+	- Please let us know where you have had problems with the content / assessments
+	- **To:** online@screencraft.net.au
+	- **Subject:** Continuous Improvement (CLUSTER/UNIT NAME)
+	- **Body:** your feedback on structure of shell content, assessments etc.
+
+- Stage 4: Web Tech / ... 
+	- ...
+	
+  - Stage 3 Mobile Apps / Intermediate Python...
+	- Thank you for your patience
+	- We have lecturers attending to this cluster (Inter Py)
+
+- Stage 2: C# / SQL / DDA
+	- The session with Aaron from last week has been published in the C# cluster
+	- If you have any other questions, please feel free to send via the helpdesk.
+	- If a last minute session is needed, then let us know ASAP
+  
+- Stage 1: Python / etc
+	- Testing in Python
+
+
 ---
 
 ## WARNING ⚠️
@@ -105,28 +152,7 @@ Details on how to access the Online Bookshelf for free  are shown here: https://
     - C# -  https://learning.oreilly.com/search/?q=C%23&type=*&rows=100
 
 ---
-## Questions?!
-Get them questions ready!
-Subject / Topic and the question itself 😊
 
----
-### Tonight...
-- Stage 4: Web Tech / ... 
-	- ...
-  
-- Stage 3 Mobile Apps / Intermediate Python...
-	- Thank you for your patience
-    - We have lecturers attending to this cluster
-
-- Stage 2: C# / SQL / DDA
-	- The session with Aaron from last week has been published in the C# cluster
-    - If you have any other questions, please feel free to send via the helpdesk.
-    - If a last minute session is needed, then let us know ASAP
-  
-- Stage 1: Python / etc
-	- Testing in Python
-
----
 
 #### Stage 1: ICTPRG302 Testing
 Useful links:
@@ -136,11 +162,12 @@ Useful links:
 
 
 ##### General Steps: 
-- Create a folder called tests
-- In this folder create files named test_WHAT_TESTING.py
+- Create a folder called `tests`
+  ![[Pasted image 20231115191610.png]]
+- In this folder create files named `test_WHAT_TESTING.py`
 - example: `test_config_reader.py`
 - These files are classes.
-- At top import the unittest package
+- At top import the `unittest` package
 - Also import the file/class you are testing
 - So in general this looks like:
 - ```python
@@ -148,7 +175,7 @@ Useful links:
   from FOLDER_AND_FILE_PATH_WITH_DOTS import CLASS_NAME
   
   
-  class CAMELCASE_TEST_WHAT_TESTING(unittest.TestCase):
+  class PASCALCASE_TEST_WHAT_TESTING(unittest.TestCase):
   ```
 - Here is a specific example, based on this repository:
 - ```python
@@ -161,24 +188,25 @@ Useful links:
   ```
   
 ##### Writing tests
-- Write each test as a function (`def).
+- Write each test as a function (`def`).
 - Make the names meaningful
 - For example (from this repository)
 - ```python
     def test_parse_config_has_correct_location_and_spaces(self):
-        tcr = Config()
+        tcr = Config()  # tcr = TOML Config Reader
         tcr.read_config_file('../config.toml')
-        config = self.tcr.parse_config()
-        parking_lot = self.config['location']
+        config = tcr.parse_config()
+        parking_lot = config['location']
   
         # Adrian prefers to use variables to make tests more readable
         expected_name = "Moondalup City Square Parking"
         expected_free = 190
         expected_max = 192
+  
         # the test assertions...
-        self.assertEqual(parking_lot['name'],   expected_name)
-        self.assertEqual(parking_lot['free_spaces'], expected_free)
-        self.assertEqual(parking_lot['max_spaces'], expected_max)
+   		self.assertEqual("Moondalup City Square Parking", "Name is not correct", parking_lot['name'])
+        self.assertEqual(122, parking_lot['free_spaces'])
+        self.assertEqual(192, parking_lot['max_spaces'])
   ```
 ##### Test Assertions
 There are many assertions that may be made. Often you use the "postive" assertions as they are easier to read.

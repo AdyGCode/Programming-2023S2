@@ -1,27 +1,31 @@
 from sense_hat import SenseHat
 from time import sleep
 
+# COLOUR NAME = ( RED, GREEN, BLUE) - three ints 0-255
 WHITE = (255, 255, 255)
+GRAY = (127, 127, 127)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
-BLANK = (0, 0, 0)
-BLACK = BLANK
+CYAN = (0, 255, 255)
+MAGENTA = (255, 0, 255)
+BLUE = (0, 0, 255)
+BLACK = (0, 0, 0)
 
 
-def clear_leds(the_sense_hat, colour=BLANK):
-    if type(the_sense_hat) == 'SenseHat':
+def clear_leds(the_sense_hat, colour=BLACK):
+    if not isinstance(the_sense_hat, SenseHat):
         print("Clear LEDs: Sense Hat is not initialised")
-        return
+        raise TypeError
 
     pixels = [colour] * 64
     the_sense_hat.set_pixels(pixels)
 
 
 def show_triangle(the_sense_hat, fg=WHITE, bg=BLACK):
-    if type(the_sense_hat) == 'SenseHat':
+    if not isinstance(the_sense_hat, SenseHat):
         print("Show Triangle: Sense Hat is not initialised")
-        return
+        raise TypeError
 
     pixels = [
         bg, bg, bg, bg, bg, bg, bg, bg,
@@ -41,12 +45,12 @@ def show_triangle(the_sense_hat, fg=WHITE, bg=BLACK):
 if __name__ == '__main__':
     sense_hat = SenseHat()
     print(type(sense_hat))
-    clear_leds(sense_hat, BLANK)
-    sleep(0.5)
+    clear_leds(sense_hat, BLACK)
+    sleep(2)
     clear_leds(sense_hat, GREEN)
-    sleep(0.5)
+    sleep(2)
     clear_leds(sense_hat, RED)
-    sleep(0.5)
+    sleep(2)
     clear_leds(sense_hat, YELLOW)
-    sleep(0.5)
-    show_triangle(sense_hat, RED,GREEN)
+    sleep(2)
+    show_triangle(sense_hat, RED, GREEN)
