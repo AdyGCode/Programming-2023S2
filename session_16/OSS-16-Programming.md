@@ -246,7 +246,56 @@ The links at the start of this section contain details on the possible assertion
 
 ## Web Tech 
 
+#### Test Driven Development
+
+1. Write the test
+2. Run the test (fail)
+3. Write code to fix the fail
+4. Run the test (pass)
+5. If feature complete then go to step 8
+6. Update the test (add next bit of the feature test)
+7. Back to step 2
+8. All done... start next feature
 
 
+O'Reilly books - remember to go to the Library Web Site and sign in!
+- https://www.oreilly.com/library/view/test-driven-development-with/9781491958698/
+- More links bookmarked on Diigo!
+	- https://www.diigo.com/profile/ady_gould?query=TDD
+	- https://www.diigo.com/profile/ady_gould?query=TDD+Python
+	- ...
 
-Thanks for the evening
+Article from Medium:
+- [[Test-driven-development-in-Python-Moez-Ali-Medium]]
+### Stage 3 - Python
+
+> Versions of python? 
+
+- Suggestion (strong) - Add to the documentation which version of python you used when creating your application
+- Always do a `pip freeze > requirements.txt` so the versions of the packages (libraries) is fixed for testing by a lecturer
+
+> Libraries for stage 3 python? 
+> 
+> I was playing around with using a UI based on textual, because it makes it easy to display messages while the user is typing.
+> 
+> Using textual takes away from the normal way of doing stuff using the terminal; the style of doing things is more like a modern GUI.
+> 
+> Simply, is using libraries like this ok?
+
+@Ady please verify this is ok with @Raf
+@Ady - impression is this would be ok
+
+## Stage 2 - C-Sharp
+
+Test Driven Development tutes
+- https://www.c-sharpcorner.com/article/test-driven-development-tdd-part-one/
+- https://carlosschults.net/en/csharp-unit-testing-intro-tdd/
+- https://methodpoet.com/tdd/
+- https://www.coscreen.co/blog/tdd-in-c-guide/
+- 
+
+O'Reilly books - remember to go to the Library Web Site and sign in!
+- https://www.oreilly.com/library/view/practical-test-driven-development/9781788398787/
+- https://www.oreilly.com/library/view/pragmatic-test-driven-development/9781803230191/B18370_03.xhtml
+- https://www.oreilly.com/library/view/introducing-test-driven/9781788292092/
+- 
