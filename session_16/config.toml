@@ -1,0 +1,41 @@
+# TOML Configuration File
+#
+# TOML:     https://github.com/toml-lang/toml
+# TUTORIAL:
+
+title = "Car Park Config"
+
+[owner]
+name = "Jacques d'Carre"
+
+
+[location]
+name = "Moondalup City Square Parking"
+max_spaces = 192
+# two spaces reserved for parking staff
+free_spaces = 190
+
+[locations]
+codes = [
+    "PER",
+    "CAR",
+    "MOO"
+]
+
+    [locations.CAR]
+    name = "Cartonville Parking"
+    max_spaces = 16
+    # one space reserved for parking staff
+    free_spaces = 15
+
+    [locations.PER]
+    name = "Perf City Centre Parking"
+    max_spaces = 1024
+    # two spaces reserved for parking staff
+    free_spaces = 1022
+
+    [locations.MOO]
+    name = "Moondalup City Square Parking"
+    max_spaces = 192
+    # two spaces reserved for parking staff
+    free_spaces = 190
