@@ -87,7 +87,7 @@ Subject / Topic and the question itself 😊
 
 ##### General Steps: 
 - Create a folder called `tests`
-  ![[Pasted image 20231115191610.png]]
+  ![Create tests folder](../media/image-20231115191610.png)
 - In this folder create files named `test_WHAT_TESTING.py`.  For example: `test_config_reader.py`
 - These files are classes.
 - At top import the `unittest` package
@@ -189,7 +189,7 @@ O'Reilly books - remember to go to the Library Web Site and sign in!
 	- ...
 
 Article from Medium:
-- [[Test-driven-development-in-Python-Moez-Ali-Medium]]
+- [Test-driven-development-in-Python-Moez-Ali-Medium](Test-driven-development-in-Python-Moez-Ali-Medium.md)
 ### Stage 3 - Python
 
 > Versions of python? 
