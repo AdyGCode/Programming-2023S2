@@ -59,23 +59,20 @@ Subject / Topic and the question itself 😊
 	- **Subject:** Continuous Improvement (CLUSTER/UNIT NAME)
 	- **Body:** your feedback on structure of shell content, assessments etc.
 
-- Stage 4: Web Tech / ... 
-	- ...
-	
-  - Stage 3 Mobile Apps / Intermediate Python...
-	- Thank you for your patience
-	- We have lecturers attending to this cluster (Inter Py)
 
-- 
+
 ---
 
 
 
 ### Stage 1: ...
 
+
 ### Stage 2:  C# / SQL / DDA
 
+
 #### DDA/SQL
+
 
 ##### Some useful links for SQL/DDA
 
@@ -88,23 +85,27 @@ Subject / Topic and the question itself 😊
 
  - It has been noted that dBeaver will not work as expected when defining a Stored procedure using SQL.
 	 - If you get an error such as:
-		   ![[Pasted image 20231120150848.png]]
+		   ![SQL Error for stored procedure](../media/image-20231120150848.png)
 		   
 	 - Then SELECT the whole query (as shown below) and execute that 'statement' by right clicking the selection, hover over Execute and then select *Execute SQL Script*.
-		   ![[Pasted image 20231120150056.png]]
+	   ![Execute SQL Script](../media/image-20231120150056.png)
 		   
 	- Alternatively, use `ALT`+`X` to execute the selected lines:
-		   ![[Pasted image 20231120152604.png]]
+	   ![ALT X shortcut to execute script](../media/image-20231120152604.png)
 		   
 	- Another item you could do is to drop the procedure before creating the procedure:
-		  ![[Pasted image 20231120150818.png]]
+	  ![Drop procedure](../media/image-20231120150818.png)
+	  
 	- Example code [SQL Stored Procedure Demo SQL](SQL-Stored-Procedure-Demo.sql)
-		
+
 
 
 ### Stage 3: ...
 
 
+
 ### Stage 4: ...
+
+
 
 ---
