@@ -103,15 +103,17 @@ Instructions for version 2 of the project should be complete by the end of the w
 
 You now have  a choice of flavours, depending on how you want to tackle the project.
 
-BOTH versions are VALID for submission! 
+> **BOTH** versions are **VALID** for submission! 
+> 
+> You complete **ONLY ONE** of them.
 
-You complete ONLY ONE of them.
-
-The second version is much longer ONLY because the  the instructions are detailed and explicit.
+The second version is a much longer document **ONLY** because the instructions are detailed and more explicit.
 
 Rafael will record an online session at 4pm on Thursday, which all are welcome to join, where he will step through the new version of the project. 
 
-He will also be demonstrating on Wednesday afternoon to the face-to-face students - this code may be found on the NM-TAFE github repositories: https://github.com/NM-TAFE/civ-ipriot-in-class-demos
+This will be recorded and made available in the shell.
+
+He will also be demonstrating on Wednesday afternoon to the face-to-face students - this code may be found on the NM-TAFE GitHub repositories: https://github.com/NM-TAFE/civ-ipriot-in-class-demos
 
 New version may be also found at: 
 [https://github.com/NM-TAFE/civ-ipriot-in-class-demos/blob/2023/s2/raf/activities/carpark-prj-guided.md](https://github.com/NM-TAFE/civ-ipriot-in-class-demos/blob/2023/s2/raf/activities/carpark-prj-guided.md "https://github.com/nm-tafe/civ-ipriot-in-class-demos/blob/2023/s2/raf/activities/carpark-prj-guided.md")
@@ -122,6 +124,19 @@ New version may be also found at:
 
 
 #### DDA/SQL
+
+##### Project
+Namrata is going to record an explanation of the project. Hopefully this will be available before the end of the week.
+
+Unfortunately Adrian is not familiar with this project so may not give the correct information.
+
+If you have any questions please send an email:
+
+- To: online@screencraft.net.au
+- Subject: Data Driven Applications Project
+- Body: Explain your issue clearly
+
+
 
 ##### SQL Commenting
 
