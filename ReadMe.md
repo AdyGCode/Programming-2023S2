@@ -101,10 +101,13 @@ Make sure you include the following details:
 
 ## Useful Links
 - GitHub Repository of Code and Notes
-	- [AdyGCode/Programming-2023S2 (github.com)](https://github.com/AdyGCode/Programming-2023S2)
-	  https://github.com/AdyGCode/Programming-2023S2
-- Adrian's Diigo Account 
-  - https://diigo.com/profile/ady_gould
+    - AdyGCode/Programming-2023S2. (2023). GitHub. https://github.com/AdyGCode/Programming-2023S2
+
+- Adrian's Diigo Account
+  - https://www.diigo.com. (2023). Diigo.com. https://www.diigo.com/profile/ady_gould
+- MyBib Free Bibliographic Reference Creator
+    - MyBib Contributors. (2023). MyBib Citation Manager. MyBib. https://www.mybib.com/?intro
+
 
 ### eLibrary
 
